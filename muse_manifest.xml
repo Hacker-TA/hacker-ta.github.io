@@ -1,0 +1,47 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1558880267236">
+  <folder name="css">
+    <file name="site_global.css" crc="4182386054"/>
+    <file name="index.css" crc="80054315" ref="index"/>
+    <file name="exploit.css" crc="4193191577" ref="exploit"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:exploit"/>
+    <file name="museutils.js" crc="340535759" ref="index:exploit"/>
+    <file name="whatinput.js" crc="86476730" ref="index:exploit"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:exploit"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:exploit"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:exploit"/>
+    <file name="require.js" crc="7928878" ref="index:exploit"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2vn5xr5.jpg" crc="522651671" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="11-u911-fr.png" crc="400549448" ref="index"/>
+    <file name="z3zo1q1.jpg" crc="215014274" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="979d963c.jpg" crc="482073878" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tokek.jpg" crc="227519110" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="heart.png" crc="117585526" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3806102378" seo="true" mt="1558877744832" redirect="true"/>
+  <file name="exploit.html" crc="3910254870" seo="true" mt="1558878552296" redirect="false"/>
+</manifest>
