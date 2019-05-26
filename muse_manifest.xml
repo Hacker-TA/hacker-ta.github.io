@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1558880267236">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1558884889673">
   <folder name="css">
     <file name="site_global.css" crc="4182386054"/>
-    <file name="index.css" crc="80054315" ref="index"/>
     <file name="exploit.css" crc="4193191577" ref="exploit"/>
+    <file name="index.css" crc="442247767" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:exploit"/>
@@ -42,6 +42,6 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3806102378" seo="true" mt="1558877744832" redirect="true"/>
+  <file name="index.html" crc="3955211606" seo="true" mt="1558877744832" redirect="true"/>
   <file name="exploit.html" crc="3910254870" seo="true" mt="1558878552296" redirect="false"/>
 </manifest>
