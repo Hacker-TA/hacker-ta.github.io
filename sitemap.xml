@@ -10,7 +10,13 @@
     </image:image>
   </url>
   <url>
-    <loc>http://hackerta.github.io/exploit.html</loc>
+    <loc>http://hackerta.github.io/exploit--hacker-ta.html</loc>
+    <lastmod>2019-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://hackerta.github.io/script--hacker-ta.html</loc>
     <lastmod>2019-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
