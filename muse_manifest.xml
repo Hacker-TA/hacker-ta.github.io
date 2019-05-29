@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1558892396477">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559128147186">
   <folder name="css">
     <file name="site_global.css" crc="4182386054"/>
-    <file name="index.css" crc="3832580814" ref="index"/>
-    <file name="script--hacker-ta.css" crc="3895562207" ref="script--hacker-ta"/>
+    <file name="index.css" crc="224365501" ref="index"/>
+    <file name="script--hacker-ta.css" crc="119728760" ref="script--hacker-ta"/>
     <file name="exploit--hacker-ta.css" crc="4290043635" ref="exploit--hacker-ta"/>
   </folder>
   <folder name="scripts">
@@ -25,7 +25,7 @@
     <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="11-u911-fr.png" crc="400549448" ref="index:exploit--hacker-ta"/>
+    <file name="11-u911-fr.png" crc="400549448" ref="index:exploit--hacker-ta:script--hacker-ta"/>
     <file name="z3zo1q1.jpg" crc="4147109252" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -57,9 +57,8 @@
     <file name="b2mw4pt.jpg" crc="340382539" ref="script--hacker-ta">
       <caption webpage="script--hacker-ta" alt=""/>
     </file>
-    <file name="11-u2348-fr.png" crc="400549448" ref="script--hacker-ta"/>
   </folder>
-  <file name="index.html" crc="516241942" seo="true" mt="1558892254650" redirect="true"/>
+  <file name="index.html" crc="127739179" seo="true" mt="1559127888999" redirect="true"/>
   <file name="exploit--hacker-ta.html" crc="4021522748" seo="true" mt="1558891794109" redirect="true"/>
-  <file name="script--hacker-ta.html" crc="419983701" seo="true" mt="1558892385337" redirect="true"/>
+  <file name="script--hacker-ta.html" crc="83332380" seo="true" mt="1558893533118" redirect="true"/>
 </manifest>
