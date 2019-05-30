@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559234728300">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559235158884">
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="435143443" ref="phone>index"/>
+      <file name="index.css" crc="4029634578" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="405580297" seo="true" mt="1559234679514" redirect="true"/>
+    <file name="index.html" crc="3903388838" seo="true" mt="1559235123773" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4182386054"/>
