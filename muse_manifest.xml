@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559235158884">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559235344509">
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4029634578" ref="phone>index"/>
+      <file name="index.css" crc="20140112" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3903388838" seo="true" mt="1559235123773" redirect="true"/>
+    <file name="index.html" crc="317278380" seo="true" mt="1559235336827" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4182386054"/>
@@ -63,7 +63,7 @@
     <file name="b2mw4pt.jpg" crc="340382539" ref="script--hacker-ta">
       <caption webpage="script--hacker-ta" alt=""/>
     </file>
-    <file name="computer.png" crc="523349475" seo="true" ref="phone>index">
+    <file name="computer.png" crc="309305351" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
