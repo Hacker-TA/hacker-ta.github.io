@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559321719374">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559321897837">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="20140112" ref="phone>index"/>
@@ -8,8 +8,8 @@
   <folder name="css">
     <file name="site_global.css" crc="4182386054"/>
     <file name="index.css" crc="142265842" ref="index"/>
-    <file name="script--hacker-ta.css" crc="119728760" ref="script--hacker-ta"/>
-    <file name="exploit--hacker-ta.css" crc="4290043635" ref="exploit--hacker-ta"/>
+    <file name="script--hacker-ta.css" crc="417634297" ref="script--hacker-ta"/>
+    <file name="exploit--hacker-ta.css" crc="33601635" ref="exploit--hacker-ta"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:exploit--hacker-ta:script--hacker-ta:phone>index"/>
@@ -31,8 +31,8 @@
     <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="11-u911-fr.png" crc="400549448" ref="index:exploit--hacker-ta:script--hacker-ta"/>
-    <file name="z3zo1q1.jpg" crc="4147109252" ref="index">
+    <file name="11-u911-fr.png" crc="400549448" ref="index"/>
+    <file name="z3zo1q1.jpg" crc="4147109252" ref="index:exploit--hacker-ta">
       <caption webpage="index" alt=""/>
     </file>
     <file name="979d963c.jpg" crc="482073878" ref="index">
@@ -47,18 +47,19 @@
     </file>
     <file name="2vn5xr5.png" crc="3968543498" ref="index:exploit--hacker-ta">
       <caption webpage="index" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="t1.jpg" crc="3946678072" ref="exploit--hacker-ta">
-      <caption webpage="exploit" alt=""/>
       <caption webpage="exploit--hacker-ta" alt=""/>
+      <caption webpage="exploit" alt=""/>
     </file>
     <file name="mbnt1vg.jpg" crc="3783522571" ref="exploit--hacker-ta">
-      <caption webpage="exploit" alt=""/>
       <caption webpage="exploit--hacker-ta" alt=""/>
+      <caption webpage="exploit" alt=""/>
     </file>
     <file name="s1200 (1).jpg" crc="4280907991" ref="exploit--hacker-ta">
-      <caption webpage="exploit" alt=""/>
       <caption webpage="exploit--hacker-ta" alt=""/>
+      <caption webpage="exploit" alt=""/>
     </file>
     <file name="b2mw4pt.jpg" crc="340382539" ref="script--hacker-ta">
       <caption webpage="script--hacker-ta" alt=""/>
@@ -66,8 +67,9 @@
     <file name="computer.png" crc="309305351" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="11-u1701-fr.png" crc="400549448" ref="exploit--hacker-ta:script--hacker-ta"/>
   </folder>
   <file name="index.html" crc="4119529921" seo="true" mt="1559321707686" redirect="true"/>
-  <file name="exploit--hacker-ta.html" crc="4021522748" seo="true" mt="1558891794109" redirect="true"/>
-  <file name="script--hacker-ta.html" crc="83332380" seo="true" mt="1558893533118" redirect="true"/>
+  <file name="exploit--hacker-ta.html" crc="4246335468" seo="true" mt="1559321880503" redirect="true"/>
+  <file name="script--hacker-ta.html" crc="4216145332" seo="true" mt="1559321890732" redirect="true"/>
 </manifest>
