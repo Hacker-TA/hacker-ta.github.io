@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559321897837">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559322055263">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="20140112" ref="phone>index"/>
@@ -70,6 +70,6 @@
     <file name="11-u1701-fr.png" crc="400549448" ref="exploit--hacker-ta:script--hacker-ta"/>
   </folder>
   <file name="index.html" crc="4119529921" seo="true" mt="1559321707686" redirect="true"/>
-  <file name="exploit--hacker-ta.html" crc="4246335468" seo="true" mt="1559321880503" redirect="true"/>
+  <file name="exploit--hacker-ta.html" crc="4268500585" seo="true" mt="1559322049404" redirect="true"/>
   <file name="script--hacker-ta.html" crc="4216145332" seo="true" mt="1559321890732" redirect="true"/>
 </manifest>
