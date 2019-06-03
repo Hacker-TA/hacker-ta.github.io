@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559416559623">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1559559722729">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="318713733" ref="phone>index"/>
@@ -9,7 +9,7 @@
     <file name="site_global.css" crc="4182386054"/>
     <file name="index.css" crc="224365501" ref="index"/>
     <file name="script--hacker-ta.css" crc="4272671198" ref="script--hacker-ta"/>
-    <file name="exploit--hacker-ta.css" crc="4253850364" ref="exploit--hacker-ta"/>
+    <file name="exploit--hacker-ta.css" crc="3953731260" ref="exploit--hacker-ta"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:exploit--hacker-ta:script--hacker-ta:phone>index"/>
@@ -50,16 +50,16 @@
       <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="t1.jpg" crc="3946678072" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="mbnt1vg.jpg" crc="3783522571" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="s1200 (1).jpg" crc="4280907991" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="b2mw4pt.jpg" crc="340382539" ref="script--hacker-ta">
       <caption webpage="script--hacker-ta" alt=""/>
@@ -67,9 +67,12 @@
     <file name="computer.png" crc="309305351" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="11-u1701-fr.png" crc="400549448" ref="exploit--hacker-ta"/>
+    <file name="c6tfojg.jpg" crc="4065207990" ref="exploit--hacker-ta">
+      <caption webpage="exploit--hacker-ta" alt=""/>
+    </file>
+    <file name="11-u3047-fr.png" crc="400549448" ref="exploit--hacker-ta"/>
   </folder>
   <file name="index.html" crc="1864811" seo="true" mt="1559321707686" redirect="true"/>
-  <file name="exploit--hacker-ta.html" crc="395214017" seo="true" mt="1559416093841" redirect="true"/>
+  <file name="exploit--hacker-ta.html" crc="242573032" seo="true" mt="1559559721896" redirect="true"/>
   <file name="script--hacker-ta.html" crc="12212745" seo="true" mt="1559413458294" redirect="true"/>
 </manifest>
