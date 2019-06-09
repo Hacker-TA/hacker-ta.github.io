@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://hackerta.github.io/index.html</loc>
-    <lastmod>2019-06-03</lastmod>
+    <lastmod>2019-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://hackerta.github.io/phone/index.html"/>
@@ -12,9 +12,15 @@
   </url>
   <url>
     <loc>http://hackerta.github.io/exploit--hacker-ta.html</loc>
-    <lastmod>2019-06-07</lastmod>
+    <lastmod>2019-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://hackerta.github.io/images/48967cc14841869fc6d9f6aa5a06745a_70x72.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://hackerta.github.io/images/icons8-%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0-64.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://hackerta.github.io/script--hacker-ta.html</loc>

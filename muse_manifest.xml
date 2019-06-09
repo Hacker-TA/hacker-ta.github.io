@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1560004618187">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1560101851747">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="318713733" ref="phone>index"/>
@@ -7,9 +7,9 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4182386054"/>
-    <file name="index.css" crc="206474999" ref="index"/>
+    <file name="index.css" crc="4188552094" ref="index"/>
     <file name="script--hacker-ta.css" crc="4272671198" ref="script--hacker-ta"/>
-    <file name="exploit--hacker-ta.css" crc="87825545" ref="exploit--hacker-ta"/>
+    <file name="exploit--hacker-ta.css" crc="26860189" ref="exploit--hacker-ta"/>
     <file name="key-system.css" crc="3882519768" ref="key-system"/>
     <file name="ke_-s_st_m.css" crc="378948345" ref="keу-sуstеm"/>
   </folder>
@@ -33,8 +33,8 @@
     <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="11-u911-fr.png" crc="400549448" ref="index:script--hacker-ta"/>
-    <file name="z3zo1q1.jpg" crc="4147109252" ref="index:exploit--hacker-ta">
+    <file name="11-u911-fr.png" crc="400549448" ref="index:script--hacker-ta:exploit--hacker-ta"/>
+    <file name="z3zo1q1.jpg" crc="4147109252" ref="exploit--hacker-ta">
       <caption webpage="index" alt=""/>
     </file>
     <file name="979d963c.jpg" crc="482073878" ref="index">
@@ -47,21 +47,21 @@
     <file name="heart.png" crc="117585526" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="2vn5xr5.png" crc="3968543498" ref="index:exploit--hacker-ta">
+    <file name="2vn5xr5.png" crc="3968543498" ref="exploit--hacker-ta">
       <caption webpage="index" alt=""/>
       <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="t1.jpg" crc="3946678072" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="mbnt1vg.jpg" crc="3783522571" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="s1200 (1).jpg" crc="4280907991" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="b2mw4pt.jpg" crc="340382539" ref="script--hacker-ta">
       <caption webpage="script--hacker-ta" alt=""/>
@@ -69,13 +69,21 @@
     <file name="computer.png" crc="309305351" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="c6tfojg.jpg" crc="4065207990" ref="exploit--hacker-ta">
+    <file name="inycsc-x6c8.jpg" crc="146636485" ref="index:exploit--hacker-ta">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="c6tfojg.png" crc="72730175" ref="index:exploit--hacker-ta">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="48967cc14841869fc6d9f6aa5a06745a_70x72.png" crc="226637197" seo="true" ref="exploit--hacker-ta">
       <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
-    <file name="11-u3047-fr.png" crc="400549448" ref="exploit--hacker-ta"/>
+    <file name="icons8-новинка-64.png" crc="3851573591" seo="true" ref="exploit--hacker-ta">
+      <caption webpage="exploit--hacker-ta" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3849907431" seo="true" mt="1559560877881" redirect="true"/>
-  <file name="exploit--hacker-ta.html" crc="11543615" seo="true" mt="1559921413868" redirect="true"/>
+  <file name="index.html" crc="4277640234" seo="true" mt="1560101835191" redirect="true"/>
+  <file name="exploit--hacker-ta.html" crc="98290527" seo="true" mt="1560101753228" redirect="true"/>
   <file name="script--hacker-ta.html" crc="12212745" seo="true" mt="1559413458294" redirect="true"/>
   <file name="key-system.html" crc="440133167" seo="true" mt="1560004578504" redirect="true"/>
   <file name="keу-sуstеm.html" crc="17966294" seo="true" mt="1560001316561" redirect="true"/>
