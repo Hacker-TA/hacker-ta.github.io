@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1562407347970">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1563033165580">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="318713733" ref="phone>index"/>
@@ -10,8 +10,8 @@
     <file name="index.css" crc="4188552094" ref="index"/>
     <file name="script--hacker-ta.css" crc="4272671198" ref="script--hacker-ta"/>
     <file name="exploit--hacker-ta.css" crc="4191787861" ref="exploit--hacker-ta"/>
-    <file name="key-system.css" crc="3882519768" ref="key-system"/>
-    <file name="ke_-s_st_m.css" crc="4197428077" ref="keу-sуstеm"/>
+    <file name="key-system.css" crc="4185554569" ref="key-system"/>
+    <file name="ke_-s_st_m.css" crc="536142827" ref="keу-sуstеm"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:exploit--hacker-ta:script--hacker-ta:phone>index:key-system:keу-sуstеm"/>
@@ -25,7 +25,7 @@
     <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:exploit--hacker-ta:script--hacker-ta:keу-sуstеm"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:exploit--hacker-ta:script--hacker-ta"/>
     <file name="require.js" crc="7928878" ref="index:exploit--hacker-ta:script--hacker-ta:phone>index:key-system:keу-sуstеm"/>
   </folder>
   <folder name="images">
@@ -87,6 +87,6 @@
   <file name="index.html" crc="4277640234" seo="true" mt="1560101835191" redirect="true"/>
   <file name="exploit--hacker-ta.html" crc="110147733" seo="true" mt="1562407332066" redirect="true"/>
   <file name="script--hacker-ta.html" crc="12212745" seo="true" mt="1559413458294" redirect="true"/>
-  <file name="key-system.html" crc="440133167" seo="true" mt="1560004578504" redirect="true"/>
-  <file name="keу-sуstеm.html" crc="505877633" seo="true" mt="1561743761170" redirect="true"/>
+  <file name="key-system.html" crc="3844359630" seo="true" mt="1563033151456" redirect="true"/>
+  <file name="keу-sуstеm.html" crc="145797467" seo="true" mt="1563033123287" redirect="true"/>
 </manifest>
