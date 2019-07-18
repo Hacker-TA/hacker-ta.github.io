@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1563452051916">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hackerta.github.io" resolutions="1x" timestamp="1563452693527">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="318713733" ref="phone>index"/>
@@ -9,7 +9,7 @@
     <file name="site_global.css" crc="4182386054"/>
     <file name="index.css" crc="4188552094" ref="index"/>
     <file name="script--hacker-ta.css" crc="4272671198" ref="script--hacker-ta"/>
-    <file name="exploit--hacker-ta.css" crc="70713112" ref="exploit--hacker-ta"/>
+    <file name="exploit--hacker-ta.css" crc="278201409" ref="exploit--hacker-ta"/>
     <file name="key-system.css" crc="4185554569" ref="key-system"/>
     <file name="ke_-s_st_m.css" crc="3766563367" ref="keу-sуstеm"/>
   </folder>
@@ -52,12 +52,12 @@
       <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="t1.jpg" crc="3946678072" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="mbnt1vg.jpg" crc="3783522571" ref="exploit--hacker-ta">
-      <caption webpage="exploit--hacker-ta" alt=""/>
       <caption webpage="exploit" alt=""/>
+      <caption webpage="exploit--hacker-ta" alt=""/>
     </file>
     <file name="b2mw4pt.jpg" crc="340382539" ref="script--hacker-ta">
       <caption webpage="script--hacker-ta" alt=""/>
@@ -88,7 +88,7 @@
     </file>
   </folder>
   <file name="index.html" crc="4277640234" seo="true" mt="1560101835191" redirect="true"/>
-  <file name="exploit--hacker-ta.html" crc="382273416" seo="true" mt="1563452050785" redirect="true"/>
+  <file name="exploit--hacker-ta.html" crc="207198789" seo="true" mt="1563452692560" redirect="true"/>
   <file name="script--hacker-ta.html" crc="12212745" seo="true" mt="1559413458294" redirect="true"/>
   <file name="key-system.html" crc="3844359630" seo="true" mt="1563033151456" redirect="true"/>
   <file name="keу-sуstеm.html" crc="3932309651" seo="true" mt="1563452032123" redirect="true"/>
