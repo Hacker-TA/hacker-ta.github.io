@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="spiderreborn.com" resolutions="1x" timestamp="1566237587341">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="spiderreborn.com" resolutions="1x" timestamp="1566237962723">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="spider.css" crc="392268449" ref="spider"/>
@@ -74,7 +74,7 @@
       <caption webpage="key" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="512263348" seo="true" mt="1566234693909" redirect="true"/>
-  <file name="spider.html" crc="3995155241" seo="true" mt="1566233108417" redirect="true"/>
+  <file name="index.html" crc="3953605521" seo="true" mt="1566237867790" redirect="true"/>
+  <file name="spider.html" crc="400606352" seo="true" mt="1566237940767" redirect="true"/>
   <file name="key.html" crc="3904626448" seo="true" mt="1566237268943" redirect="true"/>
 </manifest>
