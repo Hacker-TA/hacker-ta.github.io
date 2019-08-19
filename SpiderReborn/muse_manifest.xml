@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="spiderreborn.com" resolutions="1x" timestamp="1566234777968">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="spiderreborn.com" resolutions="1x" timestamp="1566236381178">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="spider.css" crc="392268449" ref="spider"/>
     <file name="index.css" crc="235753097" ref="index"/>
     <file name="iefonts_index.css" crc="298371514" ref="index"/>
-    <file name="key.css" crc="4189401139" ref="key"/>
+    <file name="key.css" crc="3881481591" ref="key"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:spider:key"/>
@@ -76,5 +76,5 @@
   </folder>
   <file name="index.html" crc="512263348" seo="true" mt="1566234693909" redirect="true"/>
   <file name="spider.html" crc="3995155241" seo="true" mt="1566233108417" redirect="true"/>
-  <file name="key.html" crc="111580922" seo="true" mt="1566234569435" redirect="true"/>
+  <file name="key.html" crc="4291213557" seo="true" mt="1566236354819" redirect="true"/>
 </manifest>
