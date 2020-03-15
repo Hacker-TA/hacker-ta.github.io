@@ -10,7 +10,7 @@ let key = "1fcac7bdd60f4827bf1ec61c8e298265";
 let i = document.getElementById("key");
 i.value = key;
 let c = document.getElementById("cp");
-//if(document.referrer != "http://shrinkearn.com/OCB3x") {document.body.innerHTML='<h1 align=center style="color:red;">If they key is not working then copy http://shrinkearn.com/OCB3x and open in Incognito Mode of your browser.</h1>'}
+if(document.referrer != "https://tii.ai/Ul7kVx") {document.body.innerHTML='<h1 align=center style="color:red;">If they key is not working then copy https://tii.ai/Ul7kVx and open in Incognito Mode of your browser.</h1>'}
 let debounce = false;
 let clicked = false;
 i.onmouseenter = () => {
