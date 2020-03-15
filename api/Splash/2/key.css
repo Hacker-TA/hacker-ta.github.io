@@ -23,6 +23,16 @@ body{
   font-family: "Roboto", sans-serif;
 }
 
+#key {
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  text-align: center;
+  align-self: center;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  background-color: #3CBC8D;
+}
 
 #cp{
   color: white; 
