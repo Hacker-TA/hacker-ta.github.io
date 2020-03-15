@@ -46,9 +46,6 @@ all the <a href="https://RoHacks.com/privacy">Data</a> that will be collected to
                 document.getElementById("captchacheck").submit();
             }
         </script>
-		
-		
-
 <div class="key-container">
 <span class="card-icon"><i class="material-icons">vpn_key</i></span>
 <input id="key" class="card-key" value="" readonly="">
@@ -57,25 +54,12 @@ all the <a href="https://RoHacks.com/privacy">Data</a> that will be collected to
 <button onclick="copyThatShit()" class="card-button">Copy Key</button>
 </div>
 </div>
-
-
-<script language="javascript"> 
-function getContents() {
-var htstring = document.getElementById('testIFrame').contentWindow.document.body.innerHTML;
-var stripped = htstring.replace(/(<([^>]+)>)/ig,""); 
-
-document.getElementById('contents').innerHTML = stripped; 
-
-}
-</script> 
-
 		<script>
 		function copyThatShit(){
 			document.getElementById("key").select();
 			document.execCommand("copy");
 		}
-	</script>
-		
+		</script>
       <script src="key.js"></script>
     </center>
 </form>
