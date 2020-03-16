@@ -8,7 +8,7 @@ let key = "66e8b7df-4165-49d0-aef9-0cbbf53d4253";
 let i = document.getElementById("key");
 i.value = key;
 let c = document.getElementById("cp");
-if(document.referrer != "https://tii.ai/Ul7kVx") {document.body.innerHTML='<h1 align=center style="color:red;">If they key is not working then copy <a href="https://is.gd/r9gc9X">https://is.gd/r9gc9X</a> and open in Incognito Mode of your browser.</h1>'}
+if(document.referrer != "https://tii.ai/Ul7kVx") {document.body.innerHTML='<div class="site-container"> <div class="ad-holder"> </div>  <div class="site-card"> <span class="card-title">Software Validation Key</span> <span class="card-desc">If they key is not working then copy <a href="https://is.gd/r9gc9X">https://is.gd/r9gc9X</a> and open in Incognito Mode of your browser.</span> </div>'}
 let debounce = false;
 let clicked = false;
 i.onmouseenter = () => {
