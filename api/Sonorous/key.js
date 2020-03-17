@@ -8,7 +8,7 @@ let key = "e1b49a3c-5341-4530-834a-1d76fcecf7c1";
 let i = document.getElementById("key");
 i.value = key;
 let c = document.getElementById("cp");
-if(document.referrer != "https://tii.ai/30hLoM") {document.body.innerHTML='<center> <a href="https://hacker-ta.github.io/api/Sonorous/sonorouskey.html" class="btn btn-info btn-outline-info" target="https://hacker-ta.github.io/api/Sonorous/sonorouskey.html"> GO TO HOME </a> </center>'}
+//if(document.referrer != "https://tii.ai/30hLoM") {document.body.innerHTML='<center> <a href="https://hacker-ta.github.io/api/Sonorous/sonorouskey.html" class="btn btn-info btn-outline-info" target="https://hacker-ta.github.io/api/Sonorous/sonorouskey.html"> GO TO HOME </a> </center>'}
 let debounce = false;
 let clicked = false;
 i.onmouseenter = () => {
