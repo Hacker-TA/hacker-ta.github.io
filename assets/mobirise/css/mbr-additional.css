@@ -681,6 +681,10 @@ section.form .container {
 #ext_menu-g .dropdown-item[aria-expanded="true"] {
   color: #2969b0!important;
 }
+#header3-w .mbr-section-title,
+#header3-w .mbr-section-subtitle {
+  text-align: center;
+}
 
 #ext_menu-k .hide-buttons .nav-btn {
   display: none !important;
