@@ -638,11 +638,11 @@ section.form .container {
   color: #ffffff;
 }
 #ext_menu-g .link {
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 #ext_menu-g .dropdown-item,
 #ext_menu-g .nav-dropdown-sm .link {
-  font-size: 0.921rem;
+  font-size: 1.083rem;
 }
 #ext_menu-g .link:hover,
 #ext_menu-g .dropdown-item:hover,
