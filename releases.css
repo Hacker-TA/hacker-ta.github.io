@@ -1,9 +1,0 @@
-@media only screen and (max-width:1100px){body .boxad{display:none!important}}.boxad{display:block;float:right;padding:12px}.releases-header{padding:12px}#releasesnav{float:right;color:gray;padding:12px;background-color:#fff;border-radius:6px;border:1px solid #cecece}#releasesnav a{font-weight:400;padding:4px}.downloadOption{max-width:360px;width:100%;height:200px;padding:8px;margin:5px;vertical-align:top;position:relative;transition:all .1s ease-in-out;display:inline-flex;flex-direction:column;overflow:hidden;border-radius:6px;border:1px solid #cecece}.downloadOption:hover{transform:scale(1.02)}.downloadOption div:nth-child(1){flex:1}.adsenseresponsive{display:block;margin:auto}.thumbnail{float:left;margin:0 5px 5px 0;position:relative;overflow:hidden}.thumbnail img{height:150px;height:150px;border-radius:6px}.downloadTitle{font-size:16px;position:absolute;text-align:center;background-color:rgba(0, 0, 0, 0.6);color:#fff;width:100%;padding:2px;bottom:-3px;border-bottom-right-radius:6px;border-bottom-left-radius:6px}.description{word-wrap:break-word;line-height:1.35}.download-button{margin-top:-8px}.download_metadata{display:flex}.download_metadata>p{color:gray;flex:1;text-align:left}.download_metadata a p{padding:5px 12px;background-color: #9b59b6;color:#fff;border-radius:3px}
-
-.download-button {
-    transition: .5s ease;
-}
-
-.download-button:hover {
-    transform: scale(1.07);
-}
