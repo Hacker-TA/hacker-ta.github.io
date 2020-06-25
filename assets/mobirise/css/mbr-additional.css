@@ -711,11 +711,11 @@ section.form .container {
   color: #ffffff;
 }
 #ext_menu-p .link {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 #ext_menu-p .dropdown-item,
 #ext_menu-p .nav-dropdown-sm .link {
-  font-size: 1.083rem;
+  font-size: 0.866rem;
 }
 #ext_menu-p .link:hover,
 #ext_menu-p .dropdown-item:hover,
