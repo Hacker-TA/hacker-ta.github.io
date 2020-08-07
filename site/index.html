@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="favicon.ico">
+        <title>Splash | Roblox Exploits</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+		
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+		
+		<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+		<SCRIPT type="text/javascript" src="js/popup_img.js"></SCRIPT>
+
+		<!-- My CSS -->
+		<style>
+		body {
+		  margin: 0;
+		}
+
+		.preloader {
+		  position: fixed;
+		  left: 0;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  overflow: hidden;
+		  background-color: #21D4FD;
+		  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+		  z-index: 1001;
+		  color: #eee;
+		}
+
+		.preloader__image {
+		  position: relative;
+		  top: 50%;
+		  left: 50%;
+		  width: 70px;
+		  height: 70px;
+		  margin-top: -35px;
+		  margin-left: -35px;
+		  text-align: center;
+		  animation: preloader-rotate 2s infinite linear;
+		}
+
+		@keyframes preloader-rotate {
+		  100% {
+			transform: rotate(360deg);
+		  }
+		}
+
+		.loaded_hiding .preloader {
+		  transition: 0.3s opacity;
+		  opacity: 0;
+		}
+
+		.loaded .preloader {
+		  display: none;
+		}
+		
+		*, *:before, *:after {
+		  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+		 }
+
+
+		.mouse_scroll {
+			display: block;
+			margin: 0 auto;
+			width: 24px;
+			height: 100px;
+			margin-top: 125px;
+		}
+
+
+		.m_scroll_arrows
+		{
+		  display: block;
+		  width: 5px;
+		  height: 5px;
+		  -ms-transform: rotate(45deg); /* IE 9 */
+		  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+		  transform: rotate(45deg);
+		   
+		  border-right: 2px solid white;
+		  border-bottom: 2px solid white;
+		  margin: 0 0 3px 4px;
+		  
+		  width: 16px;
+		  height: 16px;
+		}
+
+
+		.unu
+		{
+		  margin-top: 1px;
+		}
+
+		.unu, .doi, .trei
+		{
+			-webkit-animation: mouse-scroll 1s infinite;
+			-moz-animation: mouse-scroll 1s infinite;
+			animation: mouse-scroll 1s infinite;
+		  
+		}
+
+		.unu
+		{
+		  -webkit-animation-delay: .1s;
+		  -moz-animation-delay: .1s;
+		  -webkit-animation-direction: alternate;
+		  
+		  animation-direction: alternate;
+		  animation-delay: alternate;
+		}
+
+		.doi
+		{
+		  -webkit-animation-delay: .2s;
+		  -moz-animation-delay: .2s;
+		  -webkit-animation-direction: alternate;
+		  
+		  animation-delay: .2s;
+		  animation-direction: alternate;
+		  
+		  margin-top: -6px;
+		}
+
+		.trei
+		{
+		  -webkit-animation-delay: .3s;
+		  -moz-animation-delay: .3s;
+		  -webkit-animation-direction: alternate;
+		  
+		  animation-delay: .3s;
+		  animation-direction: alternate;
+		  
+		  
+		  margin-top: -6px;
+		}
+
+		.mouse {
+		  height: 42px;
+		  width: 24px;
+		  border-radius: 14px;
+		  transform: none;
+		  border: 2px solid white;
+		  top: 170px;
+		}
+
+		.wheel {
+		  height: 5px;
+		  width: 2px;
+		  display: block;
+		  margin: 5px auto;
+		  background: white;
+		  position: relative;
+		  
+		  height: 4px;
+		  width: 4px;
+		  border: 2px solid #fff;
+		  -webkit-border-radius: 8px;
+				  border-radius: 8px;
+		}
+
+		.wheel {
+		  -webkit-animation: mouse-wheel 0.6s linear infinite;
+		  -moz-animation: mouse-wheel 0.6s linear infinite;
+		  animation: mouse-wheel 0.6s linear infinite;
+		}
+
+		@-webkit-keyframes mouse-wheel{
+		   0% {
+			opacity: 1;
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+		  }
+
+		  100% {
+			opacity: 0;
+			-webkit-transform: translateY(6px);
+			-ms-transform: translateY(6px);
+			transform: translateY(6px);
+		  }
+		}
+		@-moz-keyframes mouse-wheel {
+		  0% { top: 1px; }
+		  25% { top: 2px; }
+		  50% { top: 3px;}
+		  75% { top: 2px;}
+		  100% { top: 1px;}
+		}
+		@-o-keyframes mouse-wheel {
+
+		   0% { top: 1px; }
+		  25% { top: 2px; }
+		  50% { top: 3px;}
+		  75% { top: 2px;}
+		  100% { top: 1px;}
+		}
+		@keyframes mouse-wheel {
+
+		   0% { top: 1px; }
+		  25% { top: 2px; }
+		  50% { top: 3px;}
+		  75% { top: 2px;}
+		  100% { top: 1px;}
+		}
+
+		@-webkit-keyframes mouse-scroll {
+
+		  0%   { opacity: 0;}
+		  50%  { opacity: .5;}
+		  100% { opacity: 1;}
+		}
+		@-moz-keyframes mouse-scroll {
+
+		  0%   { opacity: 0; }
+		  50%  { opacity: .5; }
+		  100% { opacity: 1; }
+		}
+		@-o-keyframes mouse-scroll {
+
+		  0%   { opacity: 0; }
+		  50%  { opacity: .5; }
+		  100% { opacity: 1; }
+		}
+		@keyframes mouse-scroll {
+
+		  0%   { opacity: 0; }
+		  50%  { opacity: .5; }
+		  100% { opacity: 1; }
+		}
+		
+		.grow:hover {
+		  -webkit-transform: scale(1.2);
+		  -ms-transform: scale(1.2);
+		  transform: scale(1.2);
+		}
+		
+		.image {
+			margin:30px; 
+			float:left;
+			cursor:pointer;
+			max-height:100px;
+		}
+
+		.popup {
+			position: absolute;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			display:none;
+			text-align:center;
+		}
+
+		.popup_bg {
+			background:rgba(0,0,0,0.4);
+			position:absolute;
+			z-index:1;
+			height:100%;
+			width:100%;
+		}
+
+
+		.popup_img {
+			position: relative;
+			margin:0 auto;
+			z-index:2;
+			max-height:94%;
+			max-width:94%;
+			margin:1% 0 0 0;
+		}
+			
+		.round {
+			border-radius: 50%;
+		}
+		</style>
+    </head>
+    <body data-spy="scroll" data-target="#mainNav" data-offset="70">
+        
+		
+		<!-- Прелоадер -->
+		<div class="preloader">
+			<svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+			  <path fill="currentColor"
+				d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+			  </path>
+			</svg>
+	    </div>
+	    
+		<script>
+			window.onload = function () {
+			  document.body.classList.add('loaded_hiding');
+			  window.setTimeout(function () {
+				document.body.classList.add('loaded');
+				document.body.classList.remove('loaded_hiding');
+			  }, 500);
+			}
+		</script>
+		
+		
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu" id="mainNav">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#feature">FEATURES</a></li> 
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Software</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="https://primearea.biz/buy/222766/">Splash Subscription</a></li>
+										<li class="nav-item"><a class="nav-link" href="index.html#">Freeware</a></li>
+									</ul>
+								</li> 
+								<li class="nav-item"><a class="nav-link" href="https://discord.com/invite/KHEWxZy">Support</a></li>
+								<li class="nav-item"><a class="nav-link" href="redirect/download.html">Download</a></li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area" id="home">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row banner_content">
+					
+					
+						<div class="col-lg-9">
+							<h2>Splash </h2>
+							<p>Maybe best exploit for roblox. More 40 tab games. Fast injection, no crash, Multiple choices on API's with Owl Hub. Beautiful and simple UI whit tab-system.</p>
+							<a class="banner_btn" href="redirect/download.html">Download</a>
+						</div>
+						
+						
+						
+						<div class="col-lg-3">
+							<div class="banner_map_img">
+								<img src="img/banner/right-mobile.png" alt="Application">
+							</div>
+						</div>
+						
+						<div class="mouse_scroll" href="redirect/download.html" >
+								<div class="mouse" href="redirect/download.html" >
+									<a class="wheel" href="redirect/download.html"></a>
+								</div>
+						</div>
+						
+						
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        
+        <!--================Interior Area =================-->
+        <section class="interior_area">
+			<div class="animate-section">
+				<div class="container">
+					<div class="interior_inner row" id="block1">
+						<div class="col-lg-6">
+							<img class="img-fluid" src="img/about-us.png" alt="">
+						</div>
+						<div class="col-lg-5 offset-lg-1">
+							<div class="interior_text">
+								<h4>Safety</h4>
+								<p>Is this safe to use? Everything on the website has been scanned and tested by professionals and the community, we only release the best exploits for our users, so we make sure that our exploits won't harm your devices, everything here is clean.</p>
+								<a class="main_btn" href="redirect/download.html">Download Exploit</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
+        <!--================End Interior Area =================-->
+        
+		        <!--================Feature Area =================-->
+        <section class="feature_area p_120" id="feature">
+        	<div class="animate-section">
+			
+				<div class="container">
+        		<div class="main_title">
+        			<h2>Unique Features</h2>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item" class="grow">
+							<center>
+        					<img src="img/icon/f-icon-http.png" alt="">
+        					<h4>Loadstring</h4>
+        					<p>Splash now supports Full Loadstring with GetObjects & HttpGet</p>
+							<p> </p>
+							<p> </p>
+							<p> </p>
+							<p> </p>
+							</center>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+							<center>
+        					<img src="img/icon/f-icon-code.png" alt="">
+        					<h4>Lua Script Executor</h4>
+        					<p>Splash is One of the best Roblox lua script executor ever made! Splash can execute almost all script. It can run scripts like 'Infinite Yield', 'c00lkidd gui', 'Ro-Xploit', 'TopKek' & more.</p>
+							<p> </p>
+							</center>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+							<center>
+        					<img src="img/icon/f-icon-fast.png" alt="">
+        					<h4>Fast Execution</h4>
+        					<p>Splash takes only few seconds to inject. Also, Roblox updates every Wednesday. We promise that you will have unpatched Splash within 12 hours of each update.</p>
+							<p> </p>
+							</center>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+							<center>
+        					<img src="img/icon/f-icon-list.png" alt="">
+        					<h4>Change API</h4>
+        					<p>You can change the API, at the moment you can change to api such as SpiderCore, EasyExploit and CheatSquard.</p>
+							<p> </p>
+							<p> </p>
+							<p> </p>
+							</center>
+        				</div>
+        			</div>					
+        		</div>
+        	</div>
+			
+			</div>
+        </section>
+        <!--================End Feature Area =================-->
+		
+        <!--================Interior Area =================-->
+        <section class="interior_area interior_two">
+			<div class="animate-section">
+				<div class="container">
+					<div class="interior_inner row">
+						<div class="col-lg-5 offset-lg-1">
+							<div class="interior_text">
+								<h4>Support</h4>
+								<p>If you have errors, problems downloading exploit? We have a whole team of wizards created to solve your problems with roblox, our exploit, we have 12 people ready to help you!</p>
+								<a class="main_btn" href="https://discord.com/invite/KHEWxZy">Summon The Wizards</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<img class="img-fluid" src="img/home-right.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+        </section>
+        <!--================End Interior Area =================-->
+        
+        <!--================Price Area =================-->
+        <section class="price_area p_120" id="price">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Pricing Table</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="price_item_inner row">
+        			<div class="col-lg-4">
+        				<div class="price_item">
+        					<div class="price_head">
+        						<div class="float-left">
+        							<h3>FREE PLAN</h3>
+        							<p>Available</p>
+        						</div>
+        						<div class="float-right">
+        							<h2>$0.00</h2>
+        						</div>
+        					</div>
+        					<div class="price_body">
+        						<ul class="list">
+        							<li><a href="#">Common Functions</a></li>
+        							<li><a href="#">Exists Key System</a></li>
+        							<li><a href="#">Multi-Game Modification</a></li>
+        							<li><a href="#">Access Forever</a></li>
+        							<li><a href="#">Live Updates</a></li>
+									<li><a href="#">24x7 Support</a></li>
+        						</ul>
+        					</div>
+        					<div class="price_footer">
+        						<a class="main_btn2" href="redirect/download.html">Download</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="price_item">
+        					<div class="price_head">
+        						<div class="float-left">
+        							<h3>FOREVER PLAN</h3>
+									<p>Available</p>
+        						</div>
+        						<div class="float-right">
+        							<h2>$1.00</h2>
+        						</div>
+        					</div>
+        					<div class="price_body">
+        						<ul class="list">
+        							<li><a href="#">Premium Features</a></li>
+        							<li><a href="#">No Key System</a></li>
+        							<li><a href="#">Multi-Game Modification</a></li>
+        							<li><a href="#">Access Forever</a></li>
+        							<li><a href="#">Live Updates</a></li>
+									<li><a href="#">24x7 Great Support</a></li>
+        						</ul>
+        					</div>
+        					<div class="price_footer">
+        						<a class="main_btn2" href="https://primearea.biz/buy/222766/">Purchase Plan</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="price_item">
+        					<div class="price_head">
+        						<div class="float-left">
+        							<h3>MONTHLY PLAN</h3>
+        							<p>Inaccessible</p>
+        						</div>
+        						<div class="float-right">
+        							<h2>$N/A</h2>
+        						</div>
+        					</div>
+        					<div class="price_body">
+        						<ul class="list">
+        							<li><a href="#">Premium Features</a></li>
+        							<li><a href="#">No Key System</a></li>
+        							<li><a href="#">Multi-Game Modification</a></li>
+        							<li><a href="#">Access Forever</a></li>
+        							<li><a href="#">Live Updates</a></li>
+									<li><a href="#">24x7 Great Support</a></li>
+        						</ul>
+        					</div>
+        					<div class="price_footer">
+        						<a class="main_btn2" href="#">Inaccessible</a>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Price Area =================-->
+        
+        <!--================Feature Area =================-->
+        <section class="screenshot_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Unique Screenshots</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="screenshot_inner owl-carousel">
+        			<div class="item">
+        				<a href="img/feature/laptopsreen1.png" class="highslide" onclick="return hs.expand(this)">  <img src="img/feature/laptopsreen1.png" /></a>
+        			</div>
+        			<div class="item">
+        				<a href="img/feature/laptopsreen2.png" class="highslide" onclick="return hs.expand(this)">  <img src="img/feature/laptopsreen2.png" /></a>
+        			</div>
+        			<div class="item">
+        				<a href="img/feature/laptopsreen3.png" class="highslide" onclick="return hs.expand(this)">  <img src="img/feature/laptopsreen3.png" /></a>
+        			</div>
+        			<div class="item">
+        				<a href="img/feature/laptopsreen4.png" class="highslide" onclick="return hs.expand(this)">  <img src="img/feature/laptopsreen4.png" /></a>
+        			</div>
+					<div class="item">	
+        				<a href="img/feature/laptopsreen5.png" class="highslide" onclick="return hs.expand(this)">  <img src="img/feature/laptopsreen5.png" /></a>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        
+        <!--================Download App Area =================-->
+        <section class="download_app_area p_120">
+        	<div class="container">
+        		<div class="app_inner">
+        			<h2>Have Any Questions?</h2>
+        			<p>Our team is here to answer and assist you!</p>
+        			<div class="app_btn_area">
+        				<div class="app_btn">
+        					<div class="media">
+								<div class="d-flex">
+									<i class="fa fa-life-ring" aria-hidden="true"></i>
+								</div>
+								<div class="media-body">
+									<a href="https://discord.com/invite/KHEWxZy"><h4>Contact Us</h4></a>
+								</div>
+							</div>
+        				</div>
+        				<div class="app_btn">
+        					<div class="media">
+								<div class="d-flex">
+									<i class="fa fa-windows" aria-hidden="true"></i>
+								</div>
+								<div class="media-body">
+									<a href="redirect/download.html"><h4>Download</h4></a>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Download App Area =================-->
+        
+       
+        <!--================ start footer Area  =================-->	
+        <div class="whole-wrap">
+				<div class="container">				
+					<div class="section-top-border">
+						<center><p>© Splash 2018 - 2020. All rights reserved. | For cooperation: @卄卂匚Ҝ乇尺 ㄒ卂#3588</p></center>				
+					</div>		
+				</div>
+			</div>
+			<!-- End Align Area -->
+		<!--================ End footer Area  =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/theme.js"></script>
+		<script src="https://use.fontawesome.com/a3e4951b76.js"></script>
+		<script src="/highslide.js" type="text/javascript"></script>
+		<link href="/highslide.css" rel="stylesheet" property="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+		$(document).ready(function() { // Ждём загрузки страницы
+	
+			$(".image").click(function(){	// Событие клика на маленькое изображение
+				var img = $(this);	// Получаем изображение, на которое кликнули
+				var src = img.attr('src'); // Достаем из этого изображения путь до картинки
+				$("body").append("<div class='popup'>"+ //Добавляем в тело документа разметку всплывающего окна
+								 "<div class='popup_bg'></div>"+ // Блок, который будет служить фоном затемненным
+								 "<img src='"+src+"' class='popup_img' />"+ // Само увеличенное фото
+								 "</div>"); 
+				$(".popup").fadeIn(800); // Медленно выводим изображение
+				$(".popup_bg").click(function(){	// Событие клика на затемненный фон	   
+					$(".popup").fadeOut(800);	// Медленно убираем всплывающее окно
+					setTimeout(function() {	// Выставляем таймер
+					  $(".popup").remove(); // Удаляем разметку всплывающего окна
+					}, 800);
+				});
+			});
+			
+		});
+		</script>
+		<script type="text/javascript">
+		  hs.graphicsDir = '/graphics/';
+		</script>
+		<script type="text/javascript">
+					  const elements = document.querySelectorAll('.animate-section');
+
+			const options = {
+				threshold: 0.7
+			}
+
+			const callback = entries => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						observer.unobserve(entry.target);
+						entry.target.classList.add('focus');
+					}
+				});
+			};
+
+
+			const observer = new IntersectionObserver(callback, options);
+			elements.forEach(element => observer.observe(element));
+		</script>
+    </body>
+</html>
