@@ -144,7 +144,7 @@ function adBlockDetected() {
 		adp.innerHTML = `
 			<h3 align="left">Ad Blocker Detected!</h3>
 			<p align="left">Page redirection is interrupted. Our project depends heavily on viewing ads. Please disable the ad blocker, after disabling the ad blocker click on the button below.</p>
-			<button onClick="window.location.reload();"Okay, I turned off the blocker.</button>
+			<button onClick="window.location.reload();">Okay, I turned off the blocker.</button>
 		`;
 		document.body.appendChild(adp);
 		adp.querySelector('a').onclick = e => {
